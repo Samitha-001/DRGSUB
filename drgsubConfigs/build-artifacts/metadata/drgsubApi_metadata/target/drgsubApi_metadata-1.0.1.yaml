@@ -1,0 +1,11 @@
+---
+key: "drgsubApi-1.0.0"
+name : "drgsubApi"
+displayName : "drgsubApi"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/drgsubapi"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
+apiId : "null"

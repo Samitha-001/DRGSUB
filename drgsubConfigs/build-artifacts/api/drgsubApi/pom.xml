@@ -5,12 +5,12 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>drgsubConfigs_module</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <groupId>com.example.api</groupId>
   <artifactId>drgsubApi</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <packaging>synapse/api</packaging>
   <name>drgsubApi</name>
   <description>drgsubApi</description>

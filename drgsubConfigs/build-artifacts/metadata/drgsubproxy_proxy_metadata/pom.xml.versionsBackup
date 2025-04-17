@@ -5,15 +5,15 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>drgsubConfigs_module</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <groupId>com.example.metadata</groupId>
-  <artifactId>drgsubApi_swagger</artifactId>
-  <version>1.0.1</version>
+  <artifactId>drgsubproxy_proxy_metadata</artifactId>
+  <version>1.0.0</version>
   <packaging>synapse/metadata</packaging>
-  <name>drgsubApi_swagger</name>
-  <description>drgsubApi_swagger</description>
+  <name>drgsubproxy_proxy_metadata</name>
+  <description>drgsubproxy_proxy_metadata</description>
   <build>
     <plugins>
       <plugin>
@@ -29,7 +29,7 @@
           </dependency>
         </dependencies>
         <configuration>
-          <artifact>../../../src/main/resources/metadata/drgsubApi_swagger.yaml</artifact>
+          <artifact>../../../src/main/resources/metadata/drgsubproxy_proxy_metadata.yaml</artifact>
         </configuration>
       </plugin>
     </plugins>

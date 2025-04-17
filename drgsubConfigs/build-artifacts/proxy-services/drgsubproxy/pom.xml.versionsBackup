@@ -5,20 +5,20 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>drgsubConfigs_module</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
-  <groupId>com.example.metadata</groupId>
-  <artifactId>drgsubApi_swagger</artifactId>
-  <version>1.0.1</version>
-  <packaging>synapse/metadata</packaging>
-  <name>drgsubApi_swagger</name>
-  <description>drgsubApi_swagger</description>
+  <groupId>com.example.proxy-service</groupId>
+  <artifactId>drgsubproxy</artifactId>
+  <version>1.0.0</version>
+  <packaging>synapse/proxy-service</packaging>
+  <name>drgsubproxy</name>
+  <description>drgsubproxy</description>
   <build>
     <plugins>
       <plugin>
         <groupId>org.wso2.maven</groupId>
-        <artifactId>wso2-esb-metadata-plugin</artifactId>
+        <artifactId>wso2-mi-synapse-plugin</artifactId>
         <version>5.2.44</version>
         <extensions>true</extensions>
         <dependencies>
@@ -29,7 +29,7 @@
           </dependency>
         </dependencies>
         <configuration>
-          <artifact>../../../src/main/resources/metadata/drgsubApi_swagger.yaml</artifact>
+          <artifact>../../../src/main/synapse-config/proxy-services/drgsubproxy.xml</artifact>
         </configuration>
       </plugin>
     </plugins>

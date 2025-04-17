@@ -5,12 +5,12 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>drgsubConfigs_module</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <groupId>com.example.metadata</groupId>
   <artifactId>drgsubApi_swagger</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.0</version>
   <packaging>synapse/metadata</packaging>
   <name>drgsubApi_swagger</name>
   <description>drgsubApi_swagger</description>
