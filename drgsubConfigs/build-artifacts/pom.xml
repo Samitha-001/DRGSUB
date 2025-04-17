@@ -13,4 +13,11 @@
   <packaging>pom</packaging>
   <name>drgsubConfigs_module</name>
   <description>drgsubConfigs_module</description>
+  <modules>
+    <module>api/drgsubApi</module>
+    <module>metadata/drgsubApi_swagger</module>
+    <module>metadata/drgsubApi_metadata</module>
+    <module>proxy-services/drgsubproxy</module>
+    <module>metadata/drgsubproxy_proxy_metadata</module>
+  </modules>
 </project>
